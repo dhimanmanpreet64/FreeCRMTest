@@ -37,6 +37,7 @@ public class LoginPageTest extends TestBase{
 	public void crmLogoImageTest() {
 		boolean flag = loginPage.validateCRMImage();
 		Assert.assertTrue(flag);
+		//using assertion
 		
 	}
 	
